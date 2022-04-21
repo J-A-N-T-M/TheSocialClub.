@@ -1,0 +1,6 @@
+framework module Pods_TheSocialClubTests {
+  umbrella header "Pods-TheSocialClubTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

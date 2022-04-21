@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F19A593280CC9DE00A5ED81 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F19A592280CC9DD00A5ED81 /* AccountViewController.swift */; };
+		8F19A595280CD91500A5ED81 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F19A594280CD91500A5ED81 /* SettingsViewController.swift */; };
+		8F6A067A2810F47D0082621B /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6A06792810F47D0082621B /* GroupsViewController.swift */; };
+		D5CB019E4379CF2A3B37F08A /* Pods_TheSocialClubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7061A7CC2761DE8D86609E1 /* Pods_TheSocialClubTests.framework */; };
+		DB9D1A2427FBE78D00D75629 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A2327FBE78D00D75629 /* AppDelegate.swift */; };
+		DB9D1A2627FBE78D00D75629 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A2527FBE78D00D75629 /* SceneDelegate.swift */; };
+		DB9D1A2B27FBE78D00D75629 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9D1A2927FBE78D00D75629 /* Main.storyboard */; };
+		DB9D1A2D27FBE79600D75629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9D1A2C27FBE79600D75629 /* Assets.xcassets */; };
+		DB9D1A3027FBE79600D75629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9D1A2E27FBE79600D75629 /* LaunchScreen.storyboard */; };
+		DB9D1A3B27FBE79700D75629 /* TheSocialClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A3A27FBE79700D75629 /* TheSocialClubTests.swift */; };
+		DB9D1A4527FBE79700D75629 /* TheSocialClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A4427FBE79700D75629 /* TheSocialClubUITests.swift */; };
+		DB9D1A4727FBE79700D75629 /* TheSocialClubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A4627FBE79700D75629 /* TheSocialClubUITestsLaunchTests.swift */; };
+		DB9D1A5427FD535A00D75629 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A5327FD535A00D75629 /* LoginViewController.swift */; };
+		DB9D1A5C27FD5FA000D75629 /* AccountCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9D1A5B27FD5FA000D75629 /* AccountCreationViewController.swift */; };
+		DB9DF164280E562800F3C89C /* NewGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9DF163280E562800F3C89C /* NewGroupViewController.swift */; };
+		DB9DF166280E60C500F3C89C /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9DF165280E60C400F3C89C /* GroupCell.swift */; };
+		DB9DF168280E680000F3C89C /* GroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9DF167280E680000F3C89C /* GroupsTableViewController.swift */; };
+		DBF0CA562804CBC8008E70EA /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF0CA552804CBC8008E70EA /* HomeTableViewController.swift */; };
+		DBF0CA582804D990008E70EA /* PostCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF0CA572804D990008E70EA /* PostCellTableViewCell.swift */; };
+		DBF0CA5A2804E087008E70EA /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF0CA592804E087008E70EA /* NewPostViewController.swift */; };
+		DD3970884FA8F7C6064BCFBB /* Pods_TheSocialClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DEC6A233529857F52CF313 /* Pods_TheSocialClub.framework */; };
+		F3318C94F39C27F763173DE5 /* Pods_TheSocialClub_TheSocialClubUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C400BB0569713E4E85CC79C /* Pods_TheSocialClub_TheSocialClubUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB9D1A3727FBE79700D75629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9D1A1827FBE78D00D75629 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9D1A1F27FBE78D00D75629;
+			remoteInfo = TheSocialClub;
+		};
+		DB9D1A4127FBE79700D75629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9D1A1827FBE78D00D75629 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9D1A1F27FBE78D00D75629;
+			remoteInfo = TheSocialClub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0740490AD5706B8F2C7260DA /* Pods-TheSocialClub-TheSocialClubUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSocialClub-TheSocialClubUITests.release.xcconfig"; path = "Target Support Files/Pods-TheSocialClub-TheSocialClubUITests/Pods-TheSocialClub-TheSocialClubUITests.release.xcconfig"; sourceTree = "<group>"; };
+		27162B4FCFE459057CFB542B /* Pods-TheSocialClub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSocialClub.debug.xcconfig"; path = "Target Support Files/Pods-TheSocialClub/Pods-TheSocialClub.debug.xcconfig"; sourceTree = "<group>"; };
+		3C400BB0569713E4E85CC79C /* Pods_TheSocialClub_TheSocialClubUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheSocialClub_TheSocialClubUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4084288F7FBDEFAAA4B67E53 /* Pods-TheSocialClub-TheSocialClubUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSocialClub-TheSocialClubUITests.debug.xcconfig"; path = "Target Support Files/Pods-TheSocialClub-TheSocialClubUITests/Pods-TheSocialClub-TheSocialClubUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		69DEC6A233529857F52CF313 /* Pods_TheSocialClub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheSocialClub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8007A81FA44FB7461D4E1E82 /* Pods-TheSocialClubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSocialClubTests.debug.xcconfig"; path = "Target Support Files/Pods-TheSocialClubTests/Pods-TheSocialClubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F19A592280CC9DD00A5ED81 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		8F19A594280CD91500A5ED81 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8F6A06792810F47D0082621B /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		99842F1E526AC24979103ABB /* Pods-TheSocialClubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSocialClubTests.release.xcconfig"; path = "Target Support Files/Pods-TheSocialClubTests/Pods-TheSocialClubTests.release.xcconfig"; sourceTree = "<group>"; };
+		B182975C633298FF0E441504 /* Pods-TheSocialClub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheSocialClub.release.xcconfig"; path = "Target Support Files/Pods-TheSocialClub/Pods-TheSocialClub.release.xcconfig"; sourceTree = "<group>"; };
+		DB9D1A2027FBE78D00D75629 /* TheSocialClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheSocialClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9D1A2327FBE78D00D75629 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB9D1A2527FBE78D00D75629 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB9D1A2A27FBE78D00D75629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB9D1A2C27FBE79600D75629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB9D1A2F27FBE79600D75629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB9D1A3127FBE79600D75629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9D1A3627FBE79700D75629 /* TheSocialClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSocialClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9D1A3A27FBE79700D75629 /* TheSocialClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSocialClubTests.swift; sourceTree = "<group>"; };
+		DB9D1A4027FBE79700D75629 /* TheSocialClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheSocialClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9D1A4427FBE79700D75629 /* TheSocialClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSocialClubUITests.swift; sourceTree = "<group>"; };
+		DB9D1A4627FBE79700D75629 /* TheSocialClubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSocialClubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB9D1A5327FD535A00D75629 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DB9D1A5B27FD5FA000D75629 /* AccountCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationViewController.swift; sourceTree = "<group>"; };
+		DB9DF163280E562800F3C89C /* NewGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGroupViewController.swift; sourceTree = "<group>"; };
+		DB9DF165280E60C400F3C89C /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		DB9DF167280E680000F3C89C /* GroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsTableViewController.swift; sourceTree = "<group>"; };
+		DBF0CA552804CBC8008E70EA /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		DBF0CA572804D990008E70EA /* PostCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellTableViewCell.swift; sourceTree = "<group>"; };
+		DBF0CA592804E087008E70EA /* NewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostViewController.swift; sourceTree = "<group>"; };
+		F7061A7CC2761DE8D86609E1 /* Pods_TheSocialClubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheSocialClubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB9D1A1D27FBE78D00D75629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3970884FA8F7C6064BCFBB /* Pods_TheSocialClub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9D1A3327FBE79700D75629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5CB019E4379CF2A3B37F08A /* Pods_TheSocialClubTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9D1A3D27FBE79700D75629 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3318C94F39C27F763173DE5 /* Pods_TheSocialClub_TheSocialClubUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38EF6FC99D92CA82EA3FBDE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69DEC6A233529857F52CF313 /* Pods_TheSocialClub.framework */,
+				3C400BB0569713E4E85CC79C /* Pods_TheSocialClub_TheSocialClubUITests.framework */,
+				F7061A7CC2761DE8D86609E1 /* Pods_TheSocialClubTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2102E42CB6BAE89769A59C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27162B4FCFE459057CFB542B /* Pods-TheSocialClub.debug.xcconfig */,
+				B182975C633298FF0E441504 /* Pods-TheSocialClub.release.xcconfig */,
+				4084288F7FBDEFAAA4B67E53 /* Pods-TheSocialClub-TheSocialClubUITests.debug.xcconfig */,
+				0740490AD5706B8F2C7260DA /* Pods-TheSocialClub-TheSocialClubUITests.release.xcconfig */,
+				8007A81FA44FB7461D4E1E82 /* Pods-TheSocialClubTests.debug.xcconfig */,
+				99842F1E526AC24979103ABB /* Pods-TheSocialClubTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB9D1A1727FBE78D00D75629 = {
+			isa = PBXGroup;
+			children = (
+				DB9D1A2227FBE78D00D75629 /* TheSocialClub */,
+				DB9D1A3927FBE79700D75629 /* TheSocialClubTests */,
+				DB9D1A4327FBE79700D75629 /* TheSocialClubUITests */,
+				DB9D1A2127FBE78D00D75629 /* Products */,
+				C2102E42CB6BAE89769A59C0 /* Pods */,
+				38EF6FC99D92CA82EA3FBDE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB9D1A2127FBE78D00D75629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB9D1A2027FBE78D00D75629 /* TheSocialClub.app */,
+				DB9D1A3627FBE79700D75629 /* TheSocialClubTests.xctest */,
+				DB9D1A4027FBE79700D75629 /* TheSocialClubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB9D1A2227FBE78D00D75629 /* TheSocialClub */ = {
+			isa = PBXGroup;
+			children = (
+				DB9D1A2327FBE78D00D75629 /* AppDelegate.swift */,
+				DB9D1A2527FBE78D00D75629 /* SceneDelegate.swift */,
+				DB9D1A2927FBE78D00D75629 /* Main.storyboard */,
+				8F19A594280CD91500A5ED81 /* SettingsViewController.swift */,
+				8F19A592280CC9DD00A5ED81 /* AccountViewController.swift */,
+				DB9D1A2C27FBE79600D75629 /* Assets.xcassets */,
+				DB9D1A2E27FBE79600D75629 /* LaunchScreen.storyboard */,
+				DB9D1A3127FBE79600D75629 /* Info.plist */,
+				DB9D1A5327FD535A00D75629 /* LoginViewController.swift */,
+				DB9D1A5B27FD5FA000D75629 /* AccountCreationViewController.swift */,
+				DBF0CA552804CBC8008E70EA /* HomeTableViewController.swift */,
+				DBF0CA572804D990008E70EA /* PostCellTableViewCell.swift */,
+				DBF0CA592804E087008E70EA /* NewPostViewController.swift */,
+				DB9DF163280E562800F3C89C /* NewGroupViewController.swift */,
+				DB9DF165280E60C400F3C89C /* GroupCell.swift */,
+				DB9DF167280E680000F3C89C /* GroupsTableViewController.swift */,
+				8F6A06792810F47D0082621B /* GroupsViewController.swift */,
+			);
+			path = TheSocialClub;
+			sourceTree = "<group>";
+		};
+		DB9D1A3927FBE79700D75629 /* TheSocialClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9D1A3A27FBE79700D75629 /* TheSocialClubTests.swift */,
+			);
+			path = TheSocialClubTests;
+			sourceTree = "<group>";
+		};
+		DB9D1A4327FBE79700D75629 /* TheSocialClubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9D1A4427FBE79700D75629 /* TheSocialClubUITests.swift */,
+				DB9D1A4627FBE79700D75629 /* TheSocialClubUITestsLaunchTests.swift */,
+			);
+			path = TheSocialClubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB9D1A1F27FBE78D00D75629 /* TheSocialClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9D1A4A27FBE79700D75629 /* Build configuration list for PBXNativeTarget "TheSocialClub" */;
+			buildPhases = (
+				A0CF1BECBD46BBEA28968A6D /* [CP] Check Pods Manifest.lock */,
+				DB9D1A1C27FBE78D00D75629 /* Sources */,
+				DB9D1A1D27FBE78D00D75629 /* Frameworks */,
+				DB9D1A1E27FBE78D00D75629 /* Resources */,
+				3BE922C375DE2E78615DEC1C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheSocialClub;
+			productName = TheSocialClub;
+			productReference = DB9D1A2027FBE78D00D75629 /* TheSocialClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB9D1A3527FBE79700D75629 /* TheSocialClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9D1A4D27FBE79700D75629 /* Build configuration list for PBXNativeTarget "TheSocialClubTests" */;
+			buildPhases = (
+				7689D620E405709B7AEB4170 /* [CP] Check Pods Manifest.lock */,
+				DB9D1A3227FBE79700D75629 /* Sources */,
+				DB9D1A3327FBE79700D75629 /* Frameworks */,
+				DB9D1A3427FBE79700D75629 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9D1A3827FBE79700D75629 /* PBXTargetDependency */,
+			);
+			name = TheSocialClubTests;
+			productName = TheSocialClubTests;
+			productReference = DB9D1A3627FBE79700D75629 /* TheSocialClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB9D1A3F27FBE79700D75629 /* TheSocialClubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9D1A5027FBE79700D75629 /* Build configuration list for PBXNativeTarget "TheSocialClubUITests" */;
+			buildPhases = (
+				08FA131EB6A00FA4A4B60165 /* [CP] Check Pods Manifest.lock */,
+				DB9D1A3C27FBE79700D75629 /* Sources */,
+				DB9D1A3D27FBE79700D75629 /* Frameworks */,
+				DB9D1A3E27FBE79700D75629 /* Resources */,
+				C6BC7EB7F0DBFB4B234AA69D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9D1A4227FBE79700D75629 /* PBXTargetDependency */,
+			);
+			name = TheSocialClubUITests;
+			productName = TheSocialClubUITests;
+			productReference = DB9D1A4027FBE79700D75629 /* TheSocialClubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB9D1A1827FBE78D00D75629 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DB9D1A1F27FBE78D00D75629 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DB9D1A3527FBE79700D75629 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DB9D1A1F27FBE78D00D75629;
+					};
+					DB9D1A3F27FBE79700D75629 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DB9D1A1F27FBE78D00D75629;
+					};
+				};
+			};
+			buildConfigurationList = DB9D1A1B27FBE78D00D75629 /* Build configuration list for PBXProject "TheSocialClub" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB9D1A1727FBE78D00D75629;
+			productRefGroup = DB9D1A2127FBE78D00D75629 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB9D1A1F27FBE78D00D75629 /* TheSocialClub */,
+				DB9D1A3527FBE79700D75629 /* TheSocialClubTests */,
+				DB9D1A3F27FBE79700D75629 /* TheSocialClubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB9D1A1E27FBE78D00D75629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9D1A3027FBE79600D75629 /* LaunchScreen.storyboard in Resources */,
+				DB9D1A2D27FBE79600D75629 /* Assets.xcassets in Resources */,
+				DB9D1A2B27FBE78D00D75629 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9D1A3427FBE79700D75629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9D1A3E27FBE79700D75629 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08FA131EB6A00FA4A4B60165 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheSocialClub-TheSocialClubUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BE922C375DE2E78615DEC1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheSocialClub/Pods-TheSocialClub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheSocialClub/Pods-TheSocialClub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheSocialClub/Pods-TheSocialClub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7689D620E405709B7AEB4170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheSocialClubTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0CF1BECBD46BBEA28968A6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheSocialClub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6BC7EB7F0DBFB4B234AA69D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheSocialClub-TheSocialClubUITests/Pods-TheSocialClub-TheSocialClubUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheSocialClub-TheSocialClubUITests/Pods-TheSocialClub-TheSocialClubUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheSocialClub-TheSocialClubUITests/Pods-TheSocialClub-TheSocialClubUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB9D1A1C27FBE78D00D75629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9D1A5427FD535A00D75629 /* LoginViewController.swift in Sources */,
+				DB9DF168280E680000F3C89C /* GroupsTableViewController.swift in Sources */,
+				DB9D1A2427FBE78D00D75629 /* AppDelegate.swift in Sources */,
+				DB9DF166280E60C500F3C89C /* GroupCell.swift in Sources */,
+				8F19A593280CC9DE00A5ED81 /* AccountViewController.swift in Sources */,
+				8F6A067A2810F47D0082621B /* GroupsViewController.swift in Sources */,
+				DB9D1A5C27FD5FA000D75629 /* AccountCreationViewController.swift in Sources */,
+				DBF0CA5A2804E087008E70EA /* NewPostViewController.swift in Sources */,
+				DB9DF164280E562800F3C89C /* NewGroupViewController.swift in Sources */,
+				DBF0CA582804D990008E70EA /* PostCellTableViewCell.swift in Sources */,
+				DB9D1A2627FBE78D00D75629 /* SceneDelegate.swift in Sources */,
+				DBF0CA562804CBC8008E70EA /* HomeTableViewController.swift in Sources */,
+				8F19A595280CD91500A5ED81 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9D1A3227FBE79700D75629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9D1A3B27FBE79700D75629 /* TheSocialClubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9D1A3C27FBE79700D75629 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9D1A4527FBE79700D75629 /* TheSocialClubUITests.swift in Sources */,
+				DB9D1A4727FBE79700D75629 /* TheSocialClubUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB9D1A3827FBE79700D75629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9D1A1F27FBE78D00D75629 /* TheSocialClub */;
+			targetProxy = DB9D1A3727FBE79700D75629 /* PBXContainerItemProxy */;
+		};
+		DB9D1A4227FBE79700D75629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9D1A1F27FBE78D00D75629 /* TheSocialClub */;
+			targetProxy = DB9D1A4127FBE79700D75629 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB9D1A2927FBE78D00D75629 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9D1A2A27FBE78D00D75629 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB9D1A2E27FBE79600D75629 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9D1A2F27FBE79600D75629 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB9D1A4827FBE79700D75629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB9D1A4927FBE79700D75629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB9D1A4B27FBE79700D75629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27162B4FCFE459057CFB542B /* Pods-TheSocialClub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C6T82JV2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheSocialClub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TheSocialClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB9D1A4C27FBE79700D75629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B182975C633298FF0E441504 /* Pods-TheSocialClub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C6T82JV2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TheSocialClub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TheSocialClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB9D1A4E27FBE79700D75629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8007A81FA44FB7461D4E1E82 /* Pods-TheSocialClubTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C6T82JV2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TheSocialClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheSocialClub.app/TheSocialClub";
+			};
+			name = Debug;
+		};
+		DB9D1A4F27FBE79700D75629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99842F1E526AC24979103ABB /* Pods-TheSocialClubTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C6T82JV2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TheSocialClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheSocialClub.app/TheSocialClub";
+			};
+			name = Release;
+		};
+		DB9D1A5127FBE79700D75629 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4084288F7FBDEFAAA4B67E53 /* Pods-TheSocialClub-TheSocialClubUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C6T82JV2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TheSocialClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheSocialClub;
+			};
+			name = Debug;
+		};
+		DB9D1A5227FBE79700D75629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0740490AD5706B8F2C7260DA /* Pods-TheSocialClub-TheSocialClubUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C6T82JV2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TheSocialClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheSocialClub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB9D1A1B27FBE78D00D75629 /* Build configuration list for PBXProject "TheSocialClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9D1A4827FBE79700D75629 /* Debug */,
+				DB9D1A4927FBE79700D75629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9D1A4A27FBE79700D75629 /* Build configuration list for PBXNativeTarget "TheSocialClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9D1A4B27FBE79700D75629 /* Debug */,
+				DB9D1A4C27FBE79700D75629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9D1A4D27FBE79700D75629 /* Build configuration list for PBXNativeTarget "TheSocialClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9D1A4E27FBE79700D75629 /* Debug */,
+				DB9D1A4F27FBE79700D75629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9D1A5027FBE79700D75629 /* Build configuration list for PBXNativeTarget "TheSocialClubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9D1A5127FBE79700D75629 /* Debug */,
+				DB9D1A5227FBE79700D75629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB9D1A1827FBE78D00D75629 /* Project object */;
+}
