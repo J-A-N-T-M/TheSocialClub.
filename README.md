@@ -30,8 +30,8 @@ A social networking application that draws up a feed that is populated based on 
 - [x] User can create/join groups
 - [x] User can post
 - [x] User can view posts
-- [ ] User can see their own profile
-- [ ] User can update account information/settings
+- [x] User can see their own profile
+- [x] User can update account information/settings
 
 **Optional Nice-to-have Stories**
 
